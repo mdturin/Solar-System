@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pluto</title>
+		<link href="../css/planets.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/bjqs.css" rel="stylesheet" type="text/css"/>
+		
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+		<script src="../js/bjqs-1.3.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$('.my-slider').bjqs({
+					animtype: 'fade', // slide or fade
+					height: 320,
+					width : 960,
+					responsive: true,
+					randomstart: true
+				});
+			});
+		</script>
+		
+		<script>
+			function bigImg(x)
+			{
+			x.style.height="150px";
+			x.style.width="150px";
+			}
+
+			function normalImg(x)
+			{
+			x.style.height="100px";
+			x.style.width="100px";
+			}
+		</script>
+		
+	</head>
+	
+	<body>
+		<div class="fix menu">
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="category.html">CATEGORY</a></li>
+				<li><a href="about_me.html">ABOUT ME</a></li>
+			</ul>
+		</div>
+		
+		<div class="fix main">
+		
+			<div class="fix header">
+				<h1>Pluto</h1>
+			</div>
+			
+			<div class="fix slider">
+				<div class="my-slider">
+					<ul class="bjqs">
+						<li><img src="../img/pluto/pluto1.jpg" alt="" title=""/></li>
+						<li><img src="../img/pluto/pluto2.jpg" alt="" title=""/></li>
+						<li><img src="../img/pluto/pluto3.jpg" alt="" title=""/></li>
+						<li><img src="../img/pluto/pluto4.jpg" alt="" title=""/></li>
+						<li><img src="../img/pluto/pluto5.jpg" alt="" title=""/></li>
+						<li><img src="../img/pluto/pluto6.jpg" alt="" title=""/></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="fix description">
+				<h2>Pluto</h2>
+
+				<p align="justify">Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond Neptune. It was the first Kuiper belt object to be discovered. It is the largest and second-most-massive known dwarf planet in the Solar System and the ninth-largest and tenth-most-massive known object directly orbiting the Sun. It is the largest known trans-Neptunian object by volume but is less massive than Eris, a dwarf planet in the scattered disc. Like other Kuiper belt objects, Pluto is primarily made of ice and rock[13] and is relatively small—about one-sixth the mass of the Moon and one-third its volume. It has a moderately eccentric and inclined orbit during which it ranges from 30 to 49 astronomical units or AU (4.4–7.4 billion km) from the Sun. This means that Pluto periodically comes closer to the Sun than Neptune, but a stable orbital resonance with Neptune prevents them from colliding. Light from the Sun takes about 5.5 hours to reach Pluto at its average distance (39.5 AU).</p>
+
+				<p align="justify">Pluto was discovered by Clyde Tombaugh in 1930, and was originally considered the ninth planet from the Sun. After 1992, its planethood was questioned following the discovery of several objects of similar size in the Kuiper belt. In 2005, Eris, which is 27% more massive than Pluto, was discovered, which led the International Astronomical Union (IAU) to define the term "planet" formally for the first time the following year.[14] This definition excluded Pluto and reclassified it as a member of the new "dwarf planet" category.[15]</p>
+
+				<p align="justify">Pluto has five known moons: Charon (the largest, with a diameter just over half that of Pluto), Styx, Nix, Kerberos, and Hydra.[16] Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body.[17] The IAU has not formalized a definition for binary dwarf planets, and Charon is officially classified as a moon of Pluto.[18]</p>
+
+				<p align="justify">On July 14, 2015, the New Horizons spacecraft became the first spacecraft to fly by Pluto.[19][20][21] During its brief flyby, New Horizons made detailed measurements and observations of Pluto and its moons.</p>	
+			</div>
+			<div class="planet_logo">
+				<marquee direction="left">
+					<a href="sun.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/sun.png" title="Sun"/></a>
+					<a href="mercury.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/mercury.png" title="Mercury"/></a>
+					<a href="venus.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/venus.png" title="Venus"/></a>
+					<a href="venus.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/earth.png" title="Earth"/></a>
+					<a href="moon.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/moon.png" title="Moon"/></a>
+					<a href="mars.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/mars.png" title="Mars"/></a>
+					<a href="ceres.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/ceres.png" title="Ceres"/></a>
+					<a href="asteroid_belt.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/asteroid_belt.png" title="Asteroid Belt"/></a>
+					<a href="jupiter.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/jupiter.png" title="Jupiter"/></a>
+					<a href="saturn.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/saturn.png" title="Saturn"/></a>
+					<a href="comets.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/comets.png" title="Comets"/></a>
+					<a href="uranus.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/uranus.png" title="Uranus"/></a>
+					<a href="neptune.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/neptune.png" title="Neptune"/></a>
+					<a href="pluto.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/pluto.png" title="Pluto"/></a>
+					<a href="makemake.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/makemake.png" title="Makemake"/></a>
+					<a href="kuiper_belt.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/kuiper_belt.png" title="Kuiper Belt"/></a>
+					<a href="eris.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../img/logo/eris.png" title="Eris"/></a>
+				</marquee>
+			</div>
+		</div>
+		<div class="fix footer">
+			<p>&copy; Md. Turin</p>
+		</div>
+	
+	
+	</body>
+	
+</html>
+	

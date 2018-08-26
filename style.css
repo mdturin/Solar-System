@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0}
+
+body{font-family: cursive;
+	font-size: 20px;
+	line-height: 22px;
+	background:url(img/background/background.jpg) repeat fixed}
+
+.fix{overflow: hidden}
+
+.main{
+	width:960px; 
+	margin: 20px auto; 
+	display: block}
+
+.header{}
+
+.logo{float:left}
+
+.logo img{
+	border: 1px solid wheat; 
+	border-radius: 20px;}
+
+.text{
+	color: white;
+	float: left;
+	line-height: 33px;
+	margin-left: 4px;
+	margin-top: 4px;}
+
+.menu{}
+
+.menu ul{float:right}
+
+.menu ul li{
+	border: 2px solid wheat;
+	border-radius: 20px;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 29px; 
+	list-style:none}
+
+.menu ul li:hover{background-color: #ffffff}
+
+.menu ul li a{
+	color: #3d92fa;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;}
+
+.menu ul li a:hover{
+	color:#A6E22A;
+	font-size: 26px}
+
+.slider{margin-bottom:20px}
+
+.my-slider{}
+
+.bjqs{}
+
+.details{margin-top: 35px}
+
+.details h2{
+	color:#493913 ; 
+	margin-bottom: 10px}
+
+.details h2:hover{color:#004BB0; font-size: 32px}
+
+.details p{
+	color: #3d92fa; 
+	margin-bottom:15px}
+
+.details a {
+	margin-left:2px;
+	color: #000;
+	line-height: 29px;}
+
+.details a:hover {color:#004BB0}
+
+.planet_logo {margin-top:20px}
+
+.footer{
+	text-align:center; 
+	color: #3d92fa; 
+	background-color: #594D39; 
+	margin-top: 20px}

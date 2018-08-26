@@ -1,0 +1,38 @@
+*{margin:0; padding:0}
+
+body{font-family: cursive;
+font-size: 20px;
+line-height: 22px; background:url(../img/background/background.jpg) repeat fixed}
+
+.fix {overflow: hidden}
+
+.menu{}
+.menu ul{float:right;}
+.menu ul li{border: 2px solid wheat;
+border-radius: 20px;
+display: inline-block;
+float: left;
+margin-left: 5px;
+margin-right: 5px;
+padding: 18px; list-style:none;}
+.menu ul li:hover{background-color: #ffffff}
+.menu ul li a{color: #3d92fa;
+font-size: 22px;
+text-align: center;
+text-decoration: none;}
+.menu ul li a:hover{
+	color:#A6E22A;
+	font-size: 26px}
+.main{width:960px; margin:20px auto; display: block}
+
+.header {font-size: 22px; margin-bottom: 20px; padding:15px; color: #3d92fa; text-align:center}
+.header h2:hover{color:#004BB0; font-size: 40px}
+
+.table table ,th, tr, td{border:1px solid black; color:#004400; width: 100%;border-collapse:collapse}
+.table table tr th a{text-decoration:none; font-size: 25px;  }
+.table table tr th {width: 50px;text-align:center;}
+.table table tr th a:hover{color:#fff; font-size:32px}
+.table tr td img {width:200px; height:200px}
+
+.planet_logo {margin-top:20px}
+.footer{text-align:center; color: white; background-color: #594D39; margin-top: 20px}
